@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>ads_dv_msgs</name>
   <version>0.0.0</version>
-  <description>Package containing all the messages for communicating with the ADS-DV vehicle</description>
+  <description>Package containing the messages for communicating with the ADS-DV vehicle</description>
   <maintainer email="jacob@culley.me">Jacob Culley</maintainer>
   <license>GPLv3</license>
-  <url type="website">https://gitlab.com/obr-a/integration/can/ads_dv</url>
+  <url type="website">https://gitlab.com/obr-a/integration/ads_dv_msgs/</url>
   <author email="jacob@culley.me">Jacob Culley</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
