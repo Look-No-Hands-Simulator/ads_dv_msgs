@@ -1,5 +1,3 @@
-uint16 FRAME_ID = 1296
-
 # Handshake
 bool handshake
 
@@ -8,16 +6,16 @@ bool estop_request
 
 # Autonomous mission status [0 - 3]
 uint8 mission_status
-uint8 MISSION_NOT_SELECTED = 0
-uint8 MISSION_SELECTED = 1
-uint8 MISSION_RUNNING = 2
-uint8 MISSION_FINISHED = 3
+uint8 MISSION_STATUS_NOT_SELECTED = 0
+uint8 MISSION_STATUS_SELECTED = 1
+uint8 MISSION_STATUS_RUNNING = 2
+uint8 MISSION_STATUS_FINISHED = 3
 
 # Requested vehicle direction [0 - 3]
 uint8 direction_request
-uint8 DIRECTION_NEUTRAL = 0
-uint8 DIRECTION_FORWARD = 1
-uint8 DIRECTION_REVERSE = 2
+uint8 DIRECTION_REQUEST_NEUTRAL = 0
+uint8 DIRECTION_REQUEST_FORWARD = 1
+uint8 DIRECTION_REQUEST_REVERSE = 2
 
 # Lap counter [0 - 15]
 uint8 lap_counter

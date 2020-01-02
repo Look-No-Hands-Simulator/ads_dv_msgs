@@ -1,5 +1,3 @@
-uint16 FRAME_ID = 1318
-
 # Front left wheel speed pulse count [0 - 65535]
 uint16 fl_pulse_count
 

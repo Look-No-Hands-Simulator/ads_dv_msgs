@@ -1,5 +1,3 @@
-uint16 FRAME_ID = 1317
-
 # Front left wheel speed (rpm) [0 - 1250]
 uint16 fl_wheel_speed_rpm
 

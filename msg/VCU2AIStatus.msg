@@ -1,5 +1,3 @@
-uint16 FRAME_ID = 1312
-
 # Handshake
 bool handshake
 
@@ -17,26 +15,24 @@ bool go_signal
 
 # State of the steering system [0 - 3]
 uint8 steering_status
-uint8 STEERING_OFF = 0
-uint8 STEERING_ACTIVE = 1
 
 # State of the Autonomous System [0 - 7]
 uint8 as_state
-uint8 AS_OFF = 1
-uint8 AS_READY = 2
-uint8 AS_DRIVING = 3
-uint8 AS_EMERGENCY_BRAKE = 4
-uint8 AS_FINISHED = 5
+uint8 AS_STATE_AS_OFF = 1
+uint8 AS_STATE_AS_READY = 2
+uint8 AS_STATE_AS_DRIVING = 3
+uint8 AS_STATE_EMERGENCY_BRAKE = 4
+uint8 AS_STATE_AS_FINISHED = 5
 
 # State of the Mission Indicator [0 - 7]
 uint8 ami_state
-uint8 AMI_NOT_SELECTED = 0
-uint8 AMI_ACCELERATION = 1
-uint8 AMI_SKIDPAD = 2
-uint8 AMI_AUTOCROSS = 3
-uint8 AMI_TRACK_DRIVE = 4
-uint8 AMI_BRAKE_TEST = 5
-uint8 AMI_INSPECTION = 6
+uint8 AMI_STATE_NOT_SELECTED = 0
+uint8 AMI_STATE_ACCELERATION = 1
+uint8 AMI_STATE_SKIDPAD = 2
+uint8 AMI_STATE_AUTOCROSS = 3
+uint8 AMI_STATE_TRACK_DRIVE = 4
+uint8 AMI_STATE_BRAKE_TEST = 5
+uint8 AMI_STATE_INSPECTION = 6
 
 # System fault status
 bool fault_status
@@ -73,3 +69,9 @@ bool autonomous_braking_fault
 
 # Autonomous mission status fault
 bool mission_status_fault
+
+#
+bool reserved_1
+
+#
+bool reserved_2
