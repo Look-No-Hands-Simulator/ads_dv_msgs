@@ -14,18 +14,23 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-    "msg/AI2VCUBrake.msg"
+    "msg/VCU2LOGDynamics1.msg"
+    "msg/AI2LOGDynamics2.msg"
+    "msg/VCU2LOGStatus.msg"
+    "msg/AI2VCUStatus.msg"
     "msg/AI2VCUDriveF.msg"
     "msg/AI2VCUDriveR.msg"
-    "msg/AI2VCUStatus.msg"
     "msg/AI2VCUSteer.msg"
-    "msg/VCU2AIBrake.msg"
+    "msg/AI2VCUBrake.msg"
+    "msg/VCU2AIStatus.msg"
     "msg/VCU2AIDriveF.msg"
     "msg/VCU2AIDriveR.msg"
-    "msg/VCU2AIStatus.msg"
     "msg/VCU2AISteer.msg"
-    "msg/VCU2AIWheelcounts.msg"
+    "msg/VCU2AIBrake.msg"
     "msg/VCU2AIWheelspeeds.msg"
+    "msg/VCU2AIWheelcounts.msg"
+    "msg/VCU2AIDrivemotordata.msg"
+    "msg/VCU2AIDiagnostics.msg"
 )
 
 ament_package()
