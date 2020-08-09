@@ -26,8 +26,8 @@ uint8 cones_count_actual
 # Total number of cones detected [0 - 65535]
 uint16 cones_count_all
 
-# Actual vehicle speed (km/h) [0 - 255]
+# Actual vehicle speed [0 - 255] km/h
 uint8 veh_speed_actual_kmh
 
-# Demanded vehicle speed (km/h) [0 - 255]
+# Demanded vehicle speed [0 - 255] km/h
 uint8 veh_speed_demand_kmh

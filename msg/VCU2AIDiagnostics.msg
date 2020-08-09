@@ -1,8 +1,8 @@
-# Battery state of charge (%) [0 - 100]
+# Battery state of charge [0 - 100] %
 uint8 battery_soc_pc
 
-# Maximum battery cell temperature (degC) [-30 - 225]
-uint8 battery_max_cell_temp_degc
+# Maximum battery cell temperature [-30 - 225] degC
+uint8 battery_max_cell_temp_deg_c
 
 # Battery cell over-temperature fault
 bool fault_cell_over_temp

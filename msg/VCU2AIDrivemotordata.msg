@@ -1,11 +1,11 @@
-# Front drive motor temperature (degC) [-30 - 225]
-uint8 motor_f_temp_degc
+# Front drive motor temperature [-30 - 225] degC
+uint8 motor_f_temp_deg_c
 
-# Rear drive motor temperature (degC) [-30 - 225]
-uint8 motor_r_temp_degc
+# Rear drive motor temperature [-30 - 225] degC
+uint8 motor_r_temp_deg_c
 
-# Front drive motor current (A) [-1638.4 - 1638.35]
-float32 motor_f_curr_0a05
+# Front drive motor current [-1638.4 - 1638.35] A
+int16 motor_f_curr_0_a05
 
-# Rear drive motor current (A) [-1638.4 - 1638.35]
-float32 motor_r_curr_0a05
+# Rear drive motor current [-1638.4 - 1638.35] A
+int16 motor_r_curr_0_a05

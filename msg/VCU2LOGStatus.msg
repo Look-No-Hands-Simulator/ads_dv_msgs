@@ -21,7 +21,6 @@ uint8 STATE_AMI_TRACK_DRIVE = 4
 uint8 STATE_AMI_BRAKE_TEST = 5
 uint8 STATE_AMI_INSPECTION = 6
 
-#
 bool state_steering
 
 # [0 - 3]

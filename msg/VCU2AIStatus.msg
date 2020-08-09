@@ -15,6 +15,8 @@ bool go_signal
 
 # State of the steering system [0 - 3]
 uint8 steering_status
+uint8 STEERING_STATUS_OFF = 0
+uint8 STEERING_STATUS_ACTIVE = 1
 
 # State of the Autonomous System [0 - 7]
 uint8 as_state
@@ -70,8 +72,6 @@ bool autonomous_braking_fault
 # Autonomous mission status fault
 bool mission_status_fault
 
-#
 bool reserved_1
 
-#
 bool reserved_2

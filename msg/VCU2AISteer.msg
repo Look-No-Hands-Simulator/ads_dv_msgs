@@ -1,8 +1,8 @@
-# Current steering angle (deg) [-27.2 - 27.2]
-float32 steer_angle_deg
+# Current steering angle [-27.2 - 27.2] deg
+int16 steer_angle_deg
 
-# Maximum allowable steering angle (deg) [0 - 27.2]
-float32 steer_angle_max_deg
+# Maximum allowable steering angle [0 - 27.2] deg
+uint16 steer_angle_max_deg
 
-# Requested steering angle (deg) [-27.2 - 27.2]
-float32 steer_angle_request_deg
+# Requested steering angle [-27.2 - 27.2] deg
+int16 steer_angle_request_deg
